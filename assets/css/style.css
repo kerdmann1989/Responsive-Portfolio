@@ -260,7 +260,20 @@ input[type=submit] {
     padding: 15px 15px;
 }
 
-/* Media */
+/* Media 980 */
+
+@media screen and (max-width: 980px) {
+    .topnav  {
+        width: 981px;    
+    }
+}
+
+@media screen and (max-width: 980px) {
+    .topnav-right  {
+        padding-right: 50px;  
+    }
+}
+
 
 @media screen and (max-width: 980px) {
     .wrapper  {
@@ -268,11 +281,28 @@ input[type=submit] {
         position: absolute;
         padding: 15px;
         left: 0;
-        right: 33%;
+        right: 33%;    }
+}
 
+@media screen and (max-width: 980px) {
+    .container1, .container2, .container3, .container4, .container5  {
+        width: 45%;
     }
 }
 
+@media screen and (max-width: 980px) {
+    .portfolioimage, .namepic  {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 980px) {
+    #message  {
+        width: 100%;
+    }
+}
+
+/* Media 768 */
 
 @media screen and (max-width: 768px) {
     .wrapper
@@ -282,22 +312,46 @@ input[type=submit] {
         margin-top: 40px;
         margin-left: 5px;
         margin-right: 5px;  
-    }}  
+    }
+}  
 
 @media screen and (max-width: 768px) {
     img
         {
         width: 50%;
-        padding: 25px 20px;
-        
-    }}  
+        padding: 25px 20px;  
+    }
+}  
+
+@media screen and (max-width: 768px) {
+    .namepic  {
+        width: 87%;
+        margin-left: 20px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .container1, .container2, .container3, .container4, .container5  {
+        width: 45%;
+    }
+}
+
 
 @media screen and (max-width: 768px) {    
-    p
-        {
+    p {
         width: 100%;
         padding: 0 20px;       
-    }}  
+    }
+}  
+
+@media screen and (max-width: 768px) {    
+    #message {
+        width: 100%;
+        height: 100px;
+    }
+} 
+
+/* Media 640 */
 
 @media screen and (max-width: 640px) {
     .navcontainer  {
@@ -313,7 +367,6 @@ input[type=submit] {
     }
 }
 
-
 @media screen and (max-width: 640px) {
     .navbuttons, .topnav-right
         {
@@ -322,7 +375,8 @@ input[type=submit] {
         background-color: white;
         margin: auto;
         clear: both;
-    }}      
+    }
+}      
 
 @media screen and (max-width: 640px) {
     .wrapper
@@ -332,9 +386,9 @@ input[type=submit] {
         margin-top: 100px;
         margin-left: 5px;
         margin-right: 5px;  
-    }}  
+    }
+}  
 
- 
 @media screen and (max-width: 640px) {
     img
         {
@@ -342,10 +396,9 @@ input[type=submit] {
         width: 100%;
         margin: auto;
         overflow: auto;
-        padding: 20px;
-        
-    }}  
-
+        padding: 20px;  
+    }
+}  
 
 @media screen and (max-width: 640px) {
     p
@@ -353,6 +406,36 @@ input[type=submit] {
         width: 100%;
         padding: 10px 20px;
         clear: both;     
-    }}  
-    
+    }
+}  
+
+@media screen and (max-width: 640px) {
+    .container1, .container2, .container3, .container4, .container5
+        {
+        width: 100%;
+        padding: 10px 20px;
+        clear: both;     
+    }
+}  
+
+@media screen and (max-width: 640px) {
+    .portfolioimage, .namepic {
+        width: 100%;
+        margin: auto;  
+    }     
+}  
+
+@media screen and (max-width: 640px) {
+    .namepic  {
+        width: 85.55%;
+        margin-left: 30px;
+        margin-bottom: 55px;
+    }
+}
+
+@media screen and (max-width: 640px) {
+    #message  {
+        width: 100%;
+    }
+}
 
