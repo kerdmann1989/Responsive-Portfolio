@@ -12,7 +12,7 @@
     height: 96px;
     font-family: Georgia, 'Times New Roman', Times, serif;
     position: relative;
-    /* top: 0; */
+    top: 0;
     /* left: 227px; */
 }
 
@@ -86,7 +86,6 @@ body {
     border-color: #ddd;
     border-style: solid;
     border-width: 1px;
-    position: absolute;
     left: 10%;
     right: 10%; 
     margin: auto;
@@ -264,47 +263,46 @@ input[type=submit] {
 
 @media screen and (max-width: 980px) {
     .topnav  {
-        width: 981px;    
+        width: 100%;    
     }
-}
-
-@media screen and (max-width: 980px) {
+ 
     .topnav-right  {
         padding-right: 50px;  
     }
-}
-
-
-@media screen and (max-width: 980px) {
+ 
     .wrapper  {
         width: 66%;
         position: absolute;
         padding: 15px;
         left: 0;
-        right: 33%;    }
-}
-
-@media screen and (max-width: 980px) {
+        right: 33%;   
+     }
+ 
     .container1, .container2, .container3, .container4, .container5  {
         width: 45%;
     }
-}
-
-@media screen and (max-width: 980px) {
+ 
     .portfolioimage, .namepic  {
         width: 100%;
     }
-}
-
-@media screen and (max-width: 980px) {
+ 
     #message  {
-        width: 100%;
+    margin-right: 0;
+    width: 100%;
     }
 }
 
 /* Media 768 */
 
 @media screen and (max-width: 768px) {
+    .topnav  {
+        width: 100%;    
+    }
+
+    .topnav-right  {
+        padding-right: 250px;  
+    }
+    
     .wrapper
         {
         width: 100%;
@@ -313,38 +311,33 @@ input[type=submit] {
         margin-left: 5px;
         margin-right: 5px;  
     }
-}  
 
-@media screen and (max-width: 768px) {
     img
         {
         width: 50%;
         padding: 25px 20px;  
     }
-}  
+ 
 
-@media screen and (max-width: 768px) {
     .namepic  {
-        width: 87%;
-        margin-left: 20px;
+        width: 85%;
+        margin: auto;
+        bottom: 40px;
+        left: 10%;
+        /* margin-left: 20px; */
     }
-}
 
-@media screen and (max-width: 768px) {
+
     .container1, .container2, .container3, .container4, .container5  {
         width: 45%;
     }
-}
 
 
-@media screen and (max-width: 768px) {    
     p {
         width: 100%;
         padding: 0 20px;       
     }
-}  
 
-@media screen and (max-width: 768px) {    
     #message {
         width: 100%;
         height: 100px;
@@ -355,87 +348,113 @@ input[type=submit] {
 
 @media screen and (max-width: 640px) {
     .navcontainer  {
+        position:relative;
         width: 100%;
         text-align: center;
+        float:left;
     }
-}
 
-@media screen and (max-width: 640px) {
+
+    .topnav  {
+        position:relative;
+        width: 100%;
+        text-align: center;
+        float:left;
+        margin-bottom: 80px;
+    }
+
+
     #navname  {
+     /* width: 640px;
+     text-align: center; */
+     /* position:relative; */
      width: 100%;
      text-align: center;
+     float:left;
     }
-}
 
-@media screen and (max-width: 640px) {
-    .navbuttons, .topnav-right
-        {
+
+    .navbuttons, .topnav-right {
         width: 100%;
         text-align: center;
         background-color: white;
         margin: auto;
         clear: both;
+        /* padding: 10px 50px; */
     }
-}      
 
-@media screen and (max-width: 640px) {
-    .wrapper
-        {
+    .topnav-right {
+        padding: 20px;
+    }
+      
+
+    .wrapper {
         width: 100%;
         position: static;
         margin-top: 100px;
         margin-left: 5px;
         margin-right: 5px;  
     }
-}  
 
-@media screen and (max-width: 640px) {
-    img
-        {
+
+    img {
         clear: both;
         width: 100%;
         margin: auto;
         overflow: auto;
         padding: 20px;  
     }
-}  
+ 
 
-@media screen and (max-width: 640px) {
-    p
-        {
+    p {
         width: 100%;
         padding: 10px 20px;
         clear: both;     
     }
-}  
+ 
 
-@media screen and (max-width: 640px) {
-    .container1, .container2, .container3, .container4, .container5
-        {
+    .container1, .container2, .container3, .container4, .container5 {
         width: 100%;
         padding: 10px 20px;
         clear: both;     
+     
     }
-}  
 
-@media screen and (max-width: 640px) {
-    .portfolioimage, .namepic {
+    .portfolioimage  {
         width: 100%;
         margin: auto;  
     }     
-}  
 
-@media screen and (max-width: 640px) {
     .namepic  {
-        width: 85.55%;
-        margin-left: 30px;
-        margin-bottom: 55px;
-    }
-}
+        width: 84%;
+        /* margin: auto; */
+        /* margin-left: 30px; */
+        margin-bottom: 25px;
+        /* margin-right: -150px;
+        margin-left: 20px; */
+        margin: auto;
+        
+       
+position: absolute;
+left: 8%;
 
-@media screen and (max-width: 640px) {
+    }
+
     #message  {
         width: 100%;
     }
-}
 
+    #logo {
+        width: 100%;
+        float: none;
+    }
+
+    header {
+        width: 100%;
+        height: 150px;
+        margin-left: 0;
+        margin-right: 0;
+        padding-left: 0;
+        padding-right: 0;
+    }
+}
